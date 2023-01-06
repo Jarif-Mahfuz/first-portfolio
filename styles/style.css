@@ -64,7 +64,6 @@ nav li{
 .banner-p{
     color: #757575;
     font-size: 18px;
-    margin-bottom: 30px;
 }
 
 /* main section */
@@ -81,6 +80,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .about-title{
@@ -122,4 +122,112 @@ justify-content: space-around;
     color: #474747;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* what I do section */
+.what-i-do{
+    margin-top: 130px;
+}
+
+.what-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.what-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+/* skill styles */
+.skills-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin: 30px;
+    /* margin-right: 25px; */
+}
+.skill > img{
+    margin: 30px 180px 30px 20px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin: 20px;
+}
+.skill-description{
+    color: #757575;
+    margin: 20px;
+}
+
+/* resume styles */
+.resume{
+    
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+.resume-contant{
+    display: flex;
+    gap: 25px;
+}
+.summary-title{
+
+    font-weight: 700;
+    font-size: 30px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.description{
+    color: #757575;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 25px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFFFFF;
 }
